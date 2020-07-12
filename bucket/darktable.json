@@ -1,0 +1,20 @@
+{
+    "version": "3.0.2",
+    "description": "Photography workflow application and raw developer",
+    "homepage": "https://www.darktable.org/",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/darktable-org/darktable/releases/download/release-3.0.2/darktable-3.0.2-win64.exe",
+            "hash": "2702b553acd09250f923f6e39d71d3c0f4ba0f81801c9c1ea55466bcf1ffab42",
+            "extract_dir": "darktable-3.0.2-win64"
+        }
+    },
+    "bin": "bin\\darktable.exe",
+    "shortcuts": [
+        [
+            "bin\\darktable.exe",
+            "Darktable"
+        ]
+    ]
+}
